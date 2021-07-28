@@ -27,4 +27,4 @@ conn.write(`${name}`)
 return conn;
 };
 
-module.exports =  connect 
+module.exports = { connect }
