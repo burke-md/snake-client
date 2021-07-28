@@ -24,6 +24,11 @@ const setupInput = (conn) => {
       
     }else if (keyPress === 'd') {
       connection.write("Move: right")
+
+    }else if (keyPress === 'l') {
+      connection.write("Say: Take the L")
+    }else if (keyPress === 'o') {
+      connection.write("Say: Oh my bad")
     }
 
   };
