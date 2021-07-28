@@ -19,8 +19,8 @@ const name = 'Name: BRK'
 conn.write(`${name}`)
 
 //move
-setInterval(() => conn.write("Move: up"), 1000);
-setInterval(() => conn.write("Move: left"), 1500);
+// setInterval(() => conn.write("Move: up"), 1000);
+// setInterval(() => conn.write("Move: left"), 1500);
 
 
 
